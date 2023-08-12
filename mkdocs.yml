@@ -36,7 +36,7 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/RoureYungLoo
+      link: https://github.com/ruoyanglu
       name: RoureYungLoo
   analytics:
     provider: google
