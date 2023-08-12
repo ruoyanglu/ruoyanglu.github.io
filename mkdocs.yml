@@ -37,7 +37,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ruoyanglu
-      name: RoureYungLoo
+      name: ruoyanglu
   analytics:
     provider: google
     property: G-Q4DFFNKQER
