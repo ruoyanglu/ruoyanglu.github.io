@@ -11,6 +11,8 @@ theme:
     - navigation.path
     - navigation.footer
     - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
     - toc.follow
     - navigation.prune 
     - header.autohide
