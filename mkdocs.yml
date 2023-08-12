@@ -3,7 +3,7 @@ site_name: 若阳的备忘录
 theme:
   name: material
   logo: assets/logo.png
-  favicon: assets/logo.png
+  favicon: assets/image/favicon.png
   custom_dir: overrides
   features:
     - navigation.instant
