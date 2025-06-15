@@ -136,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/java/Java基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Java基础 的大纲"
+              "title": "大纲"
             }
           }
         ]
@@ -162,8 +161,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "938369fab7ec9ddc",
+  "active": "0497e44ed9a40425",
   "lastOpenFiles": [
+    "docs/java/Java基础.md",
     "docs/Interview",
     "docs/新建文件夹",
     "docs/DataStructure",
@@ -178,8 +178,6 @@
     "docs/Java/Java继承.md",
     "docs/Java/paths.js",
     "docs/Java/Java基础.md",
-    "docs/Java",
-    "docs/java/Java继承.md",
-    "docs/java/Java基础.md"
+    "docs/java/Java继承.md"
   ]
 }
