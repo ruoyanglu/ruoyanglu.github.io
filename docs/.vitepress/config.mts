@@ -58,12 +58,15 @@ export default defineConfig({
       text: "在 GitHub 上编辑此页面",
     },
     lastUpdated: {
-      text: 'Updated at',
+      text: '最近更新',
       formatOptions: {
         dateStyle: 'full',
         timeStyle: 'medium'
       }
     }
   },
-  lastUpdated: true
+  lastUpdated: true,
+  markdown:{
+    lineNumbers:true
+  }
 })

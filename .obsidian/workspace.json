@@ -11,10 +11,14 @@
             "id": "0497e44ed9a40425",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/Java/Java基础.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Java基础"
             }
           }
         ]
@@ -161,8 +165,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0497e44ed9a40425",
+  "active": "938369fab7ec9ddc",
   "lastOpenFiles": [
+    "docs/Java/img/rank.png",
+    "().md",
+    "docs/Java/Java基础.md",
+    "docs/Java/Java继承.md",
+    "docs/Java/img",
+    "docs/Java/img",
+    "未命名",
+    "docs/index.md",
+    "docs/markdown-examples.md",
+    "docs/markdown-examples2.md",
+    "docs/assets/images/favicon.png",
+    "docs/logo.png",
     "docs/java/Java基础.md",
     "docs/Interview",
     "docs/新建文件夹",
@@ -171,13 +187,7 @@
     "docs/JVM",
     "docs/SpringCloud",
     "docs/SpringBoot",
-    "docs/Spring",
-    "docs/设计模式",
-    "docs/markdown-examples2.md",
     "docs/markdown-examples copy.md",
-    "docs/Java/Java继承.md",
-    "docs/Java/paths.js",
-    "docs/Java/Java基础.md",
     "docs/java/Java继承.md"
   ]
 }
