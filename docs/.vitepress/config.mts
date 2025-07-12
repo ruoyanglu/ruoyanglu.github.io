@@ -7,20 +7,47 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Java', link: '/Java' },
-      // { text: 'Examples', link: '/markdown-examples' }
+      { text: "Java", link: "/java/" },
+      {
+        text: "面试题",
+        link: "/interviews/"
+      },
     ],
 
-    sidebar: [
-      {
-        text: '/',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: '2Markdown Examples', link: '/markdown-examples2' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      "/java/": [
+        {
+          text: "java",
+          items: [
+            {
+              text: "java 基础", link: "/java/java基础.md"
+            }, {
+              text: "java 语法", link: "/java/Java继承.md"
+            }
+          ]
+        }
+      ],
+      "/interviews/": [
+        {
+          text: "Java 面试题",
+          //collapsed: false,
+          items: [
+            { text: "基础", link: "/interviews/java/java基础.md" },
+            { text: "继承与多态", link: "/interviews/java/继承与多态.md" },
+            { text: "集合", link: "/interviews/java/集合.md" },
+            { text: "多线程", link: "/interviews/java/多线程.md" },
+            { text: "并发", link: "/interviews/java/并发.md" },
+            { text: "反射与注解", link: "/interviews/java/反射与注解.md" },
+            { text: "代理", link: "/interviews/java/代理.md" },
+            { text: "IO", link: "/interviews/java/IO.md" },
+            { text: "JVM", link: "/interviews/java/jvm.md" }
+          ],
+        }
+
+      ],
+
+
+    },
 
     lightModeSwitchTitle: "开灯",
     darkModeSwitchTitle: "关灯",
@@ -66,7 +93,7 @@ export default defineConfig({
     }
   },
   lastUpdated: true,
-  markdown:{
-    lineNumbers:true
+  markdown: {
+    lineNumbers: true
   }
 })
